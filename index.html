@@ -14,36 +14,15 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-P47CCRZ');</script>
-        <!-- End Google Tag Manager -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2TRDHX741"></script>
-            <script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172062013-2"></script>
+        <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-B2TRDHX741');
+            gtag('config', 'UA-172062013-2');
         </script>
-        <script>
-            /**
-            * Function that captures a click on an outbound link in Analytics.
-            * This function takes a valid URL string as an argument, and uses that URL string
-            * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-            * using 'navigator.sendBeacon' in browser that support it.
-            */
-            var captureOutboundLink = function(url) {
-               ga('send', 'event', 'outbound', 'click', url, {
-                 'transport': 'beacon',
-                 'hitCallback': function(){document.location = url;}
-               });
-            }
-            </script>
     </head>
     <body id="page-top">
         <!-- Google Tag Manager (noscript) -->
@@ -86,7 +65,7 @@
                     <p class="lead mb-5">I am a Data Scientist at MoneyLion, a fintech company based in NYC, where I focus on advertising and partnerships. Before MoneyLion, I studied Economics and Psychology at Yale University.</p>
                     
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/ckeating-nh/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" id='linkedin-icon' href="https://www.linkedin.com/in/ckeating-nh/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/ckeating-nh"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="mailto:ckeating.nh@gmail.com"><i class="far fa-envelope"></i></a>
                         <!-- <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> -->
